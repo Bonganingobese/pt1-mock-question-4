@@ -12,11 +12,19 @@ public:
 	{
 
 	}
-	virtual string name() = 0;
-	virtual string does() = 0;
+	string name()
+	{
+		return	Name;
+	}
+	string does()
+	{
+		return Does;
+	}
 private:
 	string Name;
 	string Does;
 
 };
+
+
 
